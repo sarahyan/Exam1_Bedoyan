@@ -1,0 +1,4 @@
+1) awk '/^>/{print ">" ++i; next}{print}' < Homo_sapiens.GRCh38.cds.all.fa > question10.fa
+2) grep -v "^#" Homo_sapiens.GRCh38.82.abinitio.gtf| cut -f1,3,4,5 > question10part2.bed
+3) grep “exon” Homo_sapiens.GRCh38.82.abinitio.gtf > q10_exon.bed
+grep “transcript” Homo_sapiens.GRCh38.82.abinitio.gtf > q10_transcripts.bed
