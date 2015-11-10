@@ -1,0 +1,8 @@
+1)  $ grep -c "^>" Homo_sapiens.GRCh38.cds.all.fa
+	Answer: 101933
+2) wc -l Homo_sapiens.GRCh38.cds.all.fa
+	Answer: 2066758
+3) grep "AGATCGG" Homo_sapiens.GRCh38.cds.all.fa| wc -l
+2950
+	Yes, the sequence is repeated 2950 times
+
